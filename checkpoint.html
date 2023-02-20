@@ -4,12 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LEO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
+  <body class="dans">
     <nav>
-      <a href="/home/">home</a>| <a href="#about">about</a> |
-      <a href="#work">work</a> | <a href="#resume">resume</a> |
-      <a href="#contact">contact</a>
+      <ul class="box">
+        <li><a href="/home/">home</a></li>
+        <li><a href="#about">about</a></li>
+
+        <li><a href="#work">work</a></li>
+
+        <li><a href="#resume">resume</a></li>
+
+        <li><a href="#contact">contact</a></li>
+      </ul>
     </nav>
     <main>
       <section id="about">
@@ -24,7 +32,7 @@
         </p>
       </section>
       <section id="work">
-        <h2>Work</h2>
+        <h2 class="title">Work</h2>
         <img src="leoM.jpg" width="100" alt="leo young" />
         /><img src="LEOB2.jpg" width="100" alt="leo Ballon d'or " /><img
           src="LEOMC.jpg"
@@ -61,7 +69,7 @@
         </p>
       </section>
       <section id="resume">
-        <h2>RESUME</h2>
+        <h2 class="title">RESUME</h2>
         <iframe
           width="560"
           height="315"
@@ -73,7 +81,7 @@
         ></iframe>
       </section>
       <section id="contact">
-        <h2>CONTACT</h2>
+        <h2 class="title">CONTACT</h2>
         <form>
           <label for="fname">First name:</label><br />
           <input
@@ -98,7 +106,7 @@
           />
           <br />
           <textarea name="message " id="message" cols="30" rows="10"></textarea>
-          <button>Submit</button>
+          <button class="but">Submit</button>
         </form>
       </section>
     </main>

@@ -1,0 +1,108 @@
+h1 {
+  text-align: center;
+  font-family: Arial;
+  color: royalblue;
+}
+
+.box li {
+  display: inline;
+}
+.dans {
+  font-family: "Roboto";
+}
+.title {
+  text-align: center;
+  font-family: helvetica;
+  color: red;
+}
+a:link {
+  color: black;
+}
+.title a :hover {
+  color: aquamarine;
+}
+.box a :visited {
+  color: tomato;
+}
+body {
+  font-family: "Roboto";
+}
+.dans + p {
+  border: 1 px solid red;
+  padding-top: 50 px;
+  padding-right: 30 px;
+  padding-bottom: 50px;
+  padding-left: 30 px;
+}
+p {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.but {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+section {
+  background-image: url("background.jpg");
+}
